@@ -134,7 +134,7 @@ docker push ..
 
 Configure App Runner
 
-![alt text](resources/SCR-20240703-llhf.png)
+![alt text](resources/14-app-runner.png)
 
 Successfull deploy screen
 

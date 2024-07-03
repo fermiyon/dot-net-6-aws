@@ -12,6 +12,10 @@ By Selman Karaosmanoglu
 
 .NET 6 on AWS for Containers using Cloud9
 
+## Overview
+
+This repository provides a guide for deploying .NET 6 applications on AWS using Docker containers and Cloud9 environment.
+
 ## Architecture
 
 ```mermaid
@@ -20,6 +24,7 @@ flowchart TD;
     B -->|Deploy| C[AWS App Runner];
     D[Cloud Shell] -->|curl| C;
 ```
+## Getting Started
 
 ## Setting Up AWS Cloud9
 

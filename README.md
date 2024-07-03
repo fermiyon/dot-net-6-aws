@@ -12,6 +12,15 @@ By Selman Karaosmanoglu
 
 .NET 6 on AWS for Containers using Cloud9
 
+## Architecture
+
+```mermaid
+flowchart TD;
+    A[AWS Cloud9] -->|Docker push| B[Amazon Elastic Container Registry];
+    B -->|Deploy| C[AWS App Runner];
+    D[Cloud Shell] -->|curl| C;
+```
+
 ## Setting Up AWS Cloud9
 
 ### Create AWS Cloud9 Environment

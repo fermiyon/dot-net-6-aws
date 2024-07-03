@@ -16,4 +16,4 @@ ENV ASPNETCORE_URLS=http://+:8080
 
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebServiceAWS"]
+ENTRYPOINT ["dotnet", "WebServiceAWS.dll"]
